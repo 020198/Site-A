@@ -1,0 +1,251 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 63,
+          "width": 703,
+          "x": 39.5,
+          "y": 10
+        },
+        "props": {
+          "style": {
+            "classes": "HeaderStyle"
+          },
+          "text": "Page 2"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Accordion"
+        },
+        "position": {
+          "height": 638,
+          "width": 745,
+          "x": 20,
+          "y": 115
+        },
+        "props": {
+          "items": [
+            {
+              "body": {
+                "height": "auto",
+                "style": {
+                  "classes": "",
+                  "margin": "16px"
+                },
+                "useDefaultViewHeight": true,
+                "useDefaultViewWidth": false,
+                "viewParams": {
+                  "motorNumber": 1
+                },
+                "viewPath": "Variants/Motor Flex 4"
+              },
+              "expanded": true,
+              "header": {
+                "content": {
+                  "style": {
+                    "classes": ""
+                  },
+                  "text": "Motor 1",
+                  "type": "text",
+                  "useDefaultViewHeight": false,
+                  "useDefaultViewWidth": false,
+                  "viewParams": {},
+                  "viewPath": ""
+                },
+                "height": "40px",
+                "reverse": false,
+                "style": {
+                  "classes": ""
+                },
+                "toggle": {
+                  "collapsedIcon": {
+                    "color": "",
+                    "path": "material/expand_more",
+                    "style": {
+                      "classes": ""
+                    }
+                  },
+                  "enabled": true,
+                  "expandedIcon": {
+                    "color": "",
+                    "path": "material/expand_less",
+                    "style": {
+                      "classes": ""
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "body": {
+                "height": "auto",
+                "style": {
+                  "classes": "",
+                  "margin": "16px"
+                },
+                "useDefaultViewHeight": true,
+                "useDefaultViewWidth": false,
+                "viewParams": {
+                  "motorNumber": 2
+                },
+                "viewPath": "Variants/Motor Flex 4"
+              },
+              "expanded": false,
+              "header": {
+                "content": {
+                  "style": {
+                    "classes": ""
+                  },
+                  "text": "Motor 2",
+                  "type": "text",
+                  "useDefaultViewHeight": false,
+                  "useDefaultViewWidth": false,
+                  "viewParams": {},
+                  "viewPath": ""
+                },
+                "height": "40px",
+                "reverse": false,
+                "style": {
+                  "classes": ""
+                },
+                "toggle": {
+                  "collapsedIcon": {
+                    "color": "",
+                    "path": "material/expand_more",
+                    "style": {
+                      "classes": ""
+                    }
+                  },
+                  "enabled": true,
+                  "expandedIcon": {
+                    "color": "",
+                    "path": "material/expand_less",
+                    "style": {
+                      "classes": ""
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "body": {
+                "height": "auto",
+                "style": {
+                  "classes": "",
+                  "margin": "16px"
+                },
+                "useDefaultViewHeight": true,
+                "useDefaultViewWidth": false,
+                "viewParams": {
+                  "motorNumber": 3
+                },
+                "viewPath": "Variants/Motor Flex 4"
+              },
+              "expanded": false,
+              "header": {
+                "content": {
+                  "style": {
+                    "classes": ""
+                  },
+                  "text": "Motor 3",
+                  "type": "text",
+                  "useDefaultViewHeight": false,
+                  "useDefaultViewWidth": false,
+                  "viewParams": {},
+                  "viewPath": ""
+                },
+                "height": "40px",
+                "reverse": false,
+                "style": {
+                  "classes": ""
+                },
+                "toggle": {
+                  "collapsedIcon": {
+                    "color": "",
+                    "path": "material/expand_more",
+                    "style": {
+                      "classes": ""
+                    }
+                  },
+                  "enabled": true,
+                  "expandedIcon": {
+                    "color": "",
+                    "path": "material/expand_less",
+                    "style": {
+                      "classes": ""
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "body": {
+                "height": "auto",
+                "style": {
+                  "classes": "",
+                  "margin": "16px"
+                },
+                "useDefaultViewHeight": true,
+                "useDefaultViewWidth": false,
+                "viewParams": {
+                  "motorNumber": 4
+                },
+                "viewPath": "Variants/Motor Flex 4"
+              },
+              "expanded": false,
+              "header": {
+                "content": {
+                  "style": {
+                    "classes": ""
+                  },
+                  "text": "Motor 4",
+                  "type": "text",
+                  "useDefaultViewHeight": false,
+                  "useDefaultViewWidth": false,
+                  "viewParams": {},
+                  "viewPath": ""
+                },
+                "height": "40px",
+                "reverse": false,
+                "style": {
+                  "classes": ""
+                },
+                "toggle": {
+                  "collapsedIcon": {
+                    "color": "",
+                    "path": "material/expand_more",
+                    "style": {
+                      "classes": ""
+                    }
+                  },
+                  "enabled": true,
+                  "expandedIcon": {
+                    "color": "",
+                    "path": "material/expand_less",
+                    "style": {
+                      "classes": ""
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "type": "ia.display.accordion"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

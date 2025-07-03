@@ -1,0 +1,37 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "position": "left"
+        },
+        "props": {
+          "path": "material/insert_emoticon"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Icon_0"
+        },
+        "position": {
+          "position": "right"
+        },
+        "props": {
+          "path": "material/insert_emoticon"
+        },
+        "type": "ia.display.icon"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.split"
+  }
+}

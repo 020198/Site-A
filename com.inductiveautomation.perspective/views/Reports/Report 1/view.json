@@ -1,0 +1,73 @@
+{
+  "custom": {},
+  "params": {},
+  "permissions": {
+    "securityLevels": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "name": "Administrator"
+              },
+              {
+                "children": [],
+                "name": "Engineer"
+              },
+              {
+                "children": [],
+                "name": "Manager"
+              },
+              {
+                "children": [],
+                "name": "Operator"
+              },
+              {
+                "children": [],
+                "name": "SiteA"
+              },
+              {
+                "children": [],
+                "name": "SiteB"
+              },
+              {
+                "children": [],
+                "name": "SiteC"
+              }
+            ],
+            "name": "Roles"
+          }
+        ],
+        "name": "Authenticated"
+      }
+    ],
+    "type": "AnyOf"
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "ReportViewer"
+        },
+        "position": {
+          "height": 700,
+          "width": 510,
+          "x": 43,
+          "y": 50
+        },
+        "props": {
+          "page": 1,
+          "pageCount": 2,
+          "source": "Bottling/Line 3"
+        },
+        "type": "ia.reporting.report-viewer"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

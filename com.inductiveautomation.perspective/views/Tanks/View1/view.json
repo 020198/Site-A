@@ -1,0 +1,175 @@
+{
+  "custom": {},
+  "params": {},
+  "permissions": {
+    "securityLevels": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "name": "Administrator"
+              }
+            ],
+            "name": "Roles"
+          }
+        ],
+        "name": "Authenticated"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "props": {
+    "defaultSize": {
+      "height": 731,
+      "width": 859
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.1333,
+          "y": 0.0465
+        },
+        "props": {
+          "value": 50
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_0"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.3882,
+          "y": 0.0465
+        },
+        "props": {
+          "value": 67
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_1"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.649,
+          "y": 0.0465
+        },
+        "props": {
+          "value": 5
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_2"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.3882,
+          "y": 0.3475
+        },
+        "props": {
+          "value": 56
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_3"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.649,
+          "y": 0.3475
+        },
+        "props": {
+          "value": 99
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_4"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.1333,
+          "y": 0.3475
+        },
+        "props": {
+          "value": 45
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_5"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.3882,
+          "y": 0.6717
+        },
+        "props": {
+          "value": 20
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_6"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.649,
+          "y": 0.6717
+        },
+        "props": {
+          "value": 60
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_7"
+        },
+        "position": {
+          "height": 0.2791,
+          "width": 0.2177,
+          "x": 0.1333,
+          "y": 0.6717
+        },
+        "props": {
+          "value": 80
+        },
+        "type": "ia.display.cylindrical-tank"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "mode": "percent"
+    },
+    "type": "ia.container.coord"
+  }
+}

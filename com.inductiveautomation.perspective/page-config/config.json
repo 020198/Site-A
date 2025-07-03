@@ -1,0 +1,123 @@
+{
+  "pages": {
+    "/": {
+      "docks": {
+        "right": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "Variants/Navigation 4"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Page Views/Page1"
+    },
+    "/motor-flex": {
+      "title": "",
+      "viewPath": "SiteA Views/Motor Flex"
+    },
+    "/page2": {
+      "docks": {
+        "top": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "Variants/Navigation 1"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Page Views/Page4"
+    },
+    "/page3": {
+      "docks": {
+        "left": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 2000,
+            "content": "cover",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "auto",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "Variants/Navigation 5"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Page Views/Page2"
+    },
+    "/page4": {
+      "title": "",
+      "viewPath": "Page Views/Page5"
+    },
+    "/page5": {
+      "docks": {
+        "bottom": [
+          {
+            "anchor": "fixed",
+            "autoBreakpoint": 480,
+            "content": "push",
+            "handle": "hide",
+            "iconUrl": "",
+            "id": "",
+            "modal": false,
+            "resizable": false,
+            "show": "visible",
+            "size": 150,
+            "viewParams": {},
+            "viewPath": "Variants/Navigation 2"
+          }
+        ]
+      },
+      "title": "",
+      "viewPath": "Page Views/Page3"
+    },
+    "/reports": {
+      "title": "",
+      "viewPath": "Reports/Report 1"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom",
+    "top": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 150,
+        "viewParams": {},
+        "viewPath": "Variants/Navigation 3"
+      }
+    ]
+  }
+}

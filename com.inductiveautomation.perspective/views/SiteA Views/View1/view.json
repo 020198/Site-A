@@ -1,0 +1,48 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 5,
+              "name": "sm",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 2
+            },
+            {
+              "colIndex": 4,
+              "name": "md",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 4
+            },
+            {
+              "colIndex": 1,
+              "name": "lg",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 10
+            }
+          ],
+          "height": 60
+        },
+        "props": {
+          "path": "material/insert_emoticon"
+        },
+        "type": "ia.display.icon"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.column"
+  }
+}

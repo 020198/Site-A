@@ -1,0 +1,11 @@
+{
+  "base": {
+    "style": {
+      "color": "#5221BC",
+      "fontFamily": "Arial",
+      "fontSize": "22pt",
+      "fontStyle": "italic",
+      "textAlign": "end"
+    }
+  }
+}

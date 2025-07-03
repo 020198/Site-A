@@ -1,0 +1,46 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 0.0788,
+          "width": 0.8788,
+          "x": 0.0494,
+          "y": 0.0125
+        },
+        "props": {
+          "style": {
+            "classes": "HeaderStyle"
+          },
+          "text": "Page 4"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "AlarmStatusTable"
+        },
+        "position": {
+          "height": 0.8113,
+          "width": 0.915,
+          "x": 0.0425,
+          "y": 0.1437
+        },
+        "type": "ia.display.alarmstatustable"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "mode": "percent"
+    },
+    "type": "ia.container.coord"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#250E0E",
+      "color": "#ECDFDF",
+      "fontFamily": "Merriweather",
+      "fontSize": "40pt",
+      "margin": "10px",
+      "textAlign": "center"
+    }
+  }
+}

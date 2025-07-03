@@ -1,0 +1,106 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 0.0788,
+          "width": 0.8788,
+          "x": 0.0489,
+          "y": 0.0125
+        },
+        "props": {
+          "style": {
+            "classes": "HeaderStyle"
+          },
+          "text": "Page 1"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Motor Flex 2"
+        },
+        "position": {
+          "height": 0.375,
+          "width": 0.375,
+          "x": 0.0675,
+          "y": 0.1862
+        },
+        "props": {
+          "params": {
+            "motorNumber": 1
+          },
+          "path": "Variants/Motor Flex 2"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Motor Flex 3"
+        },
+        "position": {
+          "height": 0.375,
+          "width": 0.375,
+          "x": 0.5575,
+          "y": 0.1862
+        },
+        "props": {
+          "params": {
+            "motorNumber": 2
+          },
+          "path": "Variants/Motor Flex 2"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Motor Flex 4"
+        },
+        "position": {
+          "height": 0.375,
+          "width": 0.375,
+          "x": 0.5575,
+          "y": 0.5913
+        },
+        "props": {
+          "params": {
+            "motorNumber": 4
+          },
+          "path": "Variants/Motor Flex 2"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Motor Flex 5"
+        },
+        "position": {
+          "height": 0.375,
+          "width": 0.375,
+          "x": 0.0675,
+          "y": 0.5913
+        },
+        "props": {
+          "params": {
+            "motorNumber": 3
+          },
+          "path": "Variants/Motor Flex 2"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "mode": "percent"
+    },
+    "type": "ia.container.coord"
+  }
+}
